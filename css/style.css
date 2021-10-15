@@ -21,12 +21,6 @@ html {
     margin: 10px auto;  
 }
 
-.box-rosa {
-    width: 100%;
-    height: 7em;
-    background-color:white;
-}
-
 .logo {
     height: 100%;
     border-right: 1px solid lightgrey;
@@ -39,10 +33,17 @@ nav {
     padding-bottom: 10px;
     padding-right: 10px;
 }
+
 nav > a {
     font-family: Arial, Helvetica, sans-serif;
     text-decoration: none;
     color: lightgray;
+}
+
+.box-rosa {
+    width: 100%;
+    height: 7em;
+    background-color:white;
 }
 
 .box-giallo {
@@ -70,8 +71,7 @@ nav > a {
     height: 100%;
     color: white;
     padding-top: 25em;
-    padding-left: 4em;
-
+    padding-left: 4em;   
 }
 
 .contenuto-pagina {
@@ -79,11 +79,15 @@ nav > a {
     color: lightgrey;
 }
 
+.contenuto-pagina {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.8em;
+}
+
 .box-azzurro {
     width: 100%;
     height: 30em;
-    margin-top: 20px;
-    
+    margin-top: 20px; 
 }
 
 .no-float {
@@ -108,6 +112,12 @@ nav > a {
     width: 25%;
 }
 
+.col-centro {
+    width: calc(50% - 10px);
+    margin-left:  5px;
+    margin-right: 5px;
+}
+
 .immagine-sinistra {
     width: 100%;
     height: 10em;
@@ -123,20 +133,6 @@ nav > a {
     background-position: center;
     background-size: cover;
 }
-.titolo-col-left {
-    margin: 1em auto;
-}
-
-.contenuto-pagina {
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 0.8em;
-}
-
-.col-centro {
-    width: calc(50% - 10px);
-    margin-left:  5px;
-    margin-right: 5px;
-}
 
 .immagine-centro {
     width: 100%;
@@ -147,6 +143,11 @@ nav > a {
     background-repeat: no-repeat;
 }
 
+.titolo-col-left {
+    margin: 1em auto;
+}
+
+/* piè di pagina */
 footer {
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
