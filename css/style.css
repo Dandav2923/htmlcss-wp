@@ -19,7 +19,6 @@ html {
 .contenitore-body {
     width: 80%;
     margin: 10px auto;  
-    /* background-color: blue;   */
 }
 
 .box-rosa {
@@ -75,6 +74,11 @@ nav > a {
 
 }
 
+.contenuto-pagina {
+    font-family: Arial, Helvetica, sans-serif;
+    color: lightgrey;
+}
+
 .box-azzurro {
     width: 100%;
     height: 30em;
@@ -98,8 +102,6 @@ nav > a {
 .float {
     float: left;
     height: 26em;
-    /* background-color: green; */
-    /* border-bottom: 10px solid black; */
 }
 
 .col-left, .col-right {
@@ -134,7 +136,6 @@ nav > a {
     width: calc(50% - 10px);
     margin-left:  5px;
     margin-right: 5px;
-    /* background-color: white; */
 }
 
 .immagine-centro {
@@ -142,14 +143,18 @@ nav > a {
     height: 10em;
     background-image: url(../img/banner-2.jpg);
     background-position: center;
-    background-size: auto 100%;
+    background-size: cover;
     background-repeat: no-repeat;
-    
 }
 
 footer {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
     margin-top: 10px;
     width: 100%;
     height: 3em;
-    background-color: darkmagenta
+}
+
+.cuore {
+    color: red;
 }
